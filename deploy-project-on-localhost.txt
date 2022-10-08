@@ -1,0 +1,12 @@
+1)if your startup file is not running so we have to refer first link
+
+https://stackoverflow.com/questions/22782819/my-tomcat-is-not-running-it-just-open-and-close-when-i-click-on-tomcat7-exe
+
+2)and then go to the Second link to deploy your project on localhost.
+
+https://stackoverflow.com/questions/5109112/how-to-deploy-a-war-file-in-tomcat-7
+
+3)and the last step is that we need to add this line in tomcat-users.xml file
+
+<role rolename="manager-gui"/>
+<user username="admin" password="admin" roles="manager-gui"/>
